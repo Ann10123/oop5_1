@@ -332,7 +332,7 @@ namespace oop_lr5
             if (HorseCountSelector.SelectedItem is ComboBoxItem selectedItem &&
          int.TryParse(selectedItem.Content.ToString(), out int count))
             {
-                InitHorses(count); // 🎯 Це вже малює коней, таблицю та все інше
+                InitHorses(count);
 
                 UpdateUI();
                 UpdateDetailsGrid();
